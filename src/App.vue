@@ -1,7 +1,5 @@
 <template>
-  <div class="layout">
   <router-view />
-  </div>
 </template>
 
 <script>
@@ -26,10 +24,6 @@ export default defineComponent({
 
 .padding {
   padding: 8px;
-}
-.layout{
-  background-image: url('./assets/layout.png');
-  background-attachment: fixed;
 }
 .login-container {
   display: flex;
@@ -102,20 +96,5 @@ button {
 .logout-button {
   width: max-content;
   margin: auto;
-}
-
-.logout-button-style {
-  padding: 10px;
-  background-color: #dc3545;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  -webkit-appearance: none;
-}
-
-.logout-button-style:hover {
-  background-color: #b30018;
 }
 </style>
