@@ -140,7 +140,7 @@ playAgain(){
             y = j - 1;
             while (x <n && y >= 0) {
               if (board[x][y]) {
-                return [false];
+                return false;
               }
               x++;
               y--;
@@ -161,6 +161,7 @@ playAgain(){
     },
     submitBoard() {
       this.bar2 = true
+      console.log(this.isValidNQueenBoard(this.board))
       if (this.isValidNQueenBoard(this.board)){
         this.msg = "Well done! You did it"
       }
