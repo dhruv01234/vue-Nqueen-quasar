@@ -34,7 +34,7 @@ export default {
       if (user) {
         this.user = user;
       } else {
-        this.$router.push('/login');
+        this.$router.push('/');
       }
     });
   },
