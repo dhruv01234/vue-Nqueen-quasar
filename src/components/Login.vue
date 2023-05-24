@@ -52,7 +52,7 @@
             }
           })
         } catch (error) {
-          console.log(error.message)
+            //add dialog here
           this.isLoading = false 
         }
       }
